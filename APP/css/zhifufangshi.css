@@ -1,0 +1,154 @@
+.container{
+    width: 7.50rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 0.91rem;
+    /*background: red;*/
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+}
+.topBar p.icon{
+    font-family: 'iconfont';
+    font-size: 0.34rem;
+    margin-left: 0.24rem;
+}
+
+.top{
+    width: 7.50rem;
+    height: 4.42rem;
+    background:red;
+    margin: 0 auto;
+}
+.topContent{
+    width: 7.02rem;
+    height: 3.15rem;
+    /*background: yellow;*/
+    margin: 0 auto;
+}
+p.one{
+    width: 1.28rem;
+    height: 0.24rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+p.two{
+    width: 6.63rem;
+    height: 0.3rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.30rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-top: 0.24rem;
+}
+p.three{
+    width: 3.6rem;
+    height: 0.24rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-top: 0.3rem;
+}
+.topContent .message{
+    width: 7.02rem;
+    height: 1.87rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 0.3rem;
+    position: relative;
+}
+.message p.first{
+    width: 1.26rem;
+    height: 0.3rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.30rem;
+    color: #000000;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.2rem;
+}
+.message p.second{
+    width: 2.47rem;
+    height: 0.24rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #ef0c0c;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.4rem;
+}
+.message p.first2{
+    width: 1.26rem;
+    height: 0.3rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.30rem;
+    color: #000000;
+    position: absolute;
+    bottom: 0.4rem;
+    left: 0.2rem;
+}
+.message p.second2{
+    width: 2rem;
+    height: 0.24rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #ef0c0c;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.4rem;
+}
+
+
+
+.way{
+    width: 7.02rem;
+    height: 5.60rem;
+    background-color: #ffffff;
+    box-shadow: 0 -1px 13px 0 rgba(192, 191, 191, 0.46);
+    border-radius: 15px;
+    margin: -0.54rem auto;
+}
+span.title{
+    width: 2.1rem;
+    height: 0.34rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.34rem;
+    color: #000000;
+    margin-left: 2.4rem;
+}
+.wayContent{
+    width: 6rem;
+    height: 0.48rem;
+    /*background: blue;*/
+    margin: 0.46rem auto;
+}
+.wayContent p.logo{
+    float: left;
+    font-family: iconfont;
+    font-size: 0.48rem;
+}
+.wayContent p.desc{
+    float: left;
+    height: 0.24rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    margin-left: 0.2rem;
+}

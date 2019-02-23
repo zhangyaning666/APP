@@ -1,0 +1,190 @@
+.container{
+    width: 7.50rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 0.91rem;
+    /*background: red;*/
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+}
+.topBar p.icon{
+    font-family: 'iconfont';
+    font-size: 0.34rem;
+    margin-left: 0.24rem;
+}
+
+
+/*main*/
+.main{
+    width: 7.50rem;
+    height: 4.42rem;
+    background:red;
+    margin: 0 auto;
+    position: relative;
+}
+.main img{
+    width: 1.52rem;
+    height: 1.52rem;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    left: 3rem;
+}
+.main p.nicheng{
+    width: 2.85rem;
+    height: 0.34rem;
+    font-size: 0.34rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 1.86rem;
+    left: 2.3rem;
+}
+.main p.qianming{
+    width: 2.85rem;
+    height: 0.25rem;
+    font-size: 0.25rem;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 1.56rem;
+    left: 2.3rem;
+}
+.main .scanBox{
+    width: 0.66rem;
+    height: 0.66rem;
+    border-radius: 50%;
+    background-color: #d52121;
+    box-shadow: 0 4px 21px 0 rgba(171, 21, 21, 0.63);
+    position: absolute;
+    bottom: 0.24rem;
+    left: 2.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main .scanBox i{
+    font-family: 'iconfont';
+    font-size: 0.44rem;
+    color: white;
+}
+
+.main .scanBox2{
+    width: 0.66rem;
+    height: 0.66rem;
+    border-radius: 50%;
+    background-color: #d52121;
+    box-shadow: 0 4px 21px 0 rgba(171, 21, 21, 0.63);
+    position: absolute;
+    bottom: 0.24rem;
+    right: 2.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main .scanBox2 i{
+    font-family: 'iconfont';
+    font-size: 0.44rem;
+    color: white;
+}
+
+
+.my{
+    width: 7.02rem;
+    height: 6rem;
+    margin: 0 auto;
+}
+.setupTitle{
+    width: 3.05rem;
+    height: 0.85rem;
+    background-color: #ffffff;
+    box-shadow: 0 9px 29px 0 rgba(239, 33, 13, 0.81);
+    border-radius: 43px;
+    margin: 0 auto;
+    position: relative;
+}
+.setupTitle p{
+    width: 1.64rem;
+    height: 0.28rem;
+    font-size: 0.35rem;
+    letter-spacing: 2px;
+    color: #ef0f0d;
+    position: absolute;
+    left: 0.8rem;
+    top:0.2rem;
+}
+
+
+.mainContent{
+    width: 7.02rem;
+    height: 1.27rem;
+    margin: 0.34rem auto;
+    background-color: #ffffff;
+    box-shadow: 0 5px 27px 0 rgba(180, 180, 180, 0.19);
+    border-radius: 15px;
+}
+.mainContent .left{
+    float: left;
+    width: 0.53rem;
+    height: 0.53rem;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 13px 0px rgba(180, 180, 180, 0.22);
+    margin-left: 0.36rem;
+    margin-top: 0.36rem;
+}
+.mainContent .left p{
+    float: left;
+    font-family: iconfont;
+    font-size: 0.4rem;
+    margin-left: 0.06rem;
+    margin-top: 0.04rem;
+}
+.mainContent p.name{
+    float: left;
+    margin-left: 0.36rem;
+    margin-top: 0.4rem;
+}
+
+/*底部*/
+.footer{
+    width: 7.50rem;
+    height: 1rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(192, 191, 191, 0.44);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footerBox{
+    width: 0.55rem;
+    height: 1rem;
+    /*background: blue;*/
+}
+.footerBox p.icon{
+    font-family: 'iconfont';
+    font-size: 0.44rem;
+}
+.footerBox p.active{
+    color: red;
+}
+.footerBox span{
+    font-size: 0.18rem;
+}
+.footerBox span.active{
+    color: red;
+}
+

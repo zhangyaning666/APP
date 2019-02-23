@@ -1,0 +1,99 @@
+.container{
+    width: 7.50rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 0.91rem;
+    /*background: red;*/
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    align-items: center;
+}
+.topBar p.icon{
+    font-family: 'iconfont';
+    font-size: 0.34rem;
+    margin-left: 0.24rem;
+}
+
+
+/* */
+.mid{
+    width: 7.5rem;
+    height: 5.1rem;
+    margin:  0 auto;
+    position: relative;
+}
+.mid img{
+    display: block;
+    width: 5rem;
+    height: 4rem;
+    position: absolute;
+    top: 0;
+    left: 1.22rem;
+}
+.desc{
+    width: 2.5rem;
+    height: 0.6rem;
+    position: absolute;
+    bottom: 0;
+    left: 2.52rem;
+}
+.desc p.one{
+    font-size: 0.36rem;
+    color: #000000;
+    text-align: center;
+}
+.desc p.two{
+    font-size: 0.24rem;
+    color: #ff0000;
+    text-align: center;
+}
+
+
+/**/
+.bottom{
+    width: 3rem;
+    height: 3rem;
+    /*background: red;*/
+    margin: 1.5rem auto;
+}
+.button{
+    width: 2.72rem;
+    height: 1.05rem;
+    background-color: #ff0000;
+    box-shadow: 0px 9px 38px 0px rgba(255, 0, 0, 0.63), inset 0 26px 29px 0 rgba(245, 58, 58, 0.58);
+    border-radius: 50px;
+}
+.button p{
+    font-size: 0.34rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.05rem;
+}
+.button2{
+    width: 2.72rem;
+    height: 1.05rem;
+    background-color: #caeb15;
+    box-shadow: 0px 9px 38px 0px rgba(144, 167, 17, 0.63), inset 0px 26px 29px 0px rgba(200, 227, 54, 0.58);
+    border-radius: 50px;
+}
+.button2 p{
+    font-size: 0.34rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.05rem;
+    margin-top: 0.5rem;
+}

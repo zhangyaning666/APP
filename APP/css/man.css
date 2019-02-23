@@ -1,0 +1,349 @@
+.container{
+    width: 7.50rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 0.91rem;
+    /*background: red;*/
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+}
+.topBar p.icon{
+    font-family: 'iconfont';
+    font-size: 0.34rem;
+    margin-left: 0.24rem;
+    color: white;
+}
+.topBar p.name{
+    font-size: 0.3rem;
+    margin-left: 0.1rem;
+    color: white;
+}
+.topBar .right {
+    width: 1.5rem;
+    height: 0.47rem;
+    background-color: #cccccc;border-radius: 24px;border: solid 4px #ad9999;
+    margin-left: 2.64rem;
+}
+p.shoucang{
+    float: left;
+    font-family: iconfont;
+    font-size: 0.3rem;
+    margin-left: 0.2rem;
+    color: red;
+}
+p.fenxiang{
+    float: right;
+    font-family: iconfont;
+    font-size: 0.3rem;
+    margin-right: 0.2rem;
+    color: red;
+}
+
+
+
+/*                           */
+.next{
+    width: 7.5rem;
+    height: 3rem;
+    margin: 0 auto;
+    background: red;
+    position: relative;
+}
+.logo{
+    width: 2.2rem;
+    height: 2.2rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.5rem;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.message{
+    width: 4.1rem;
+    height: 2.2rem;
+    /*background: white;*/
+    position: absolute;
+    top: 0.4rem;
+    right: 0.3rem;
+}
+.message p.one{
+    width: 3.27rem;
+    height: 0.3rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    color: #ffffff;
+    margin-top: 0.1rem;
+}
+.message p.two{
+    width: 3.2rem;
+    height: 0.24rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.24rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+}
+.message p.three{
+    width: 3.2rem;
+    height: 0.24rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.24rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+}
+.message p.four{
+    font-family: iconfont;
+    color: #ffffff;
+    font-size: 0.32rem;
+    margin-top: 0.25rem;
+}
+
+/*                                                 */
+.space{
+    width: 7.5rem;
+    height: 0.9rem;
+    background: #000000;
+    margin: 0 auto;
+}
+.space p{
+    color: white;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height: 0.9rem;
+}
+
+
+/*                                         */
+.mid{
+    width: 7.5rem;
+    height: 1.3rem;
+    background: white;
+    margin: 0 auto;
+    position: relative;
+}
+.midOnly{
+    width: 3.46rem;
+    height: 0.80rem;
+    border-radius: 40px;border: solid 1px #b3afaf;
+    position: absolute;
+    top: 0.25rem;
+    left: 2.02rem;
+    display: flex;
+    align-items: center;
+}
+.onlyLeft{
+    width: 1.69rem;
+    height: 0.64rem;
+    background-color: #e00d0d;
+    border-radius: 32px;
+    margin-top:0.03rem;
+    margin-left: 0.06rem;
+}
+.onlyLeft p{
+    font-size: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.64rem;
+}
+.onlyRight{
+    width: 1.69rem;
+    height: 0.64rem;
+    border-radius: 32px;
+    margin-top:0.03rem;
+    margin-right: 0.06rem;
+}
+.onlyRight p{
+    font-size: 0.3rem;
+    color: black;
+    text-align: center;
+    line-height: 0.64rem;
+}
+
+
+/*                                             */
+.main{
+    width: 7.5rem;
+    height: 6.8rem;
+    margin: 0 auto;
+}
+.aside{
+    float: left;
+    width: 2.09rem;
+    height: 6.8rem;
+    background-color: #000000;
+}
+.asideContent{
+    width: 1.54rem;
+    height: 5.58rem;
+    margin-left: 0.27rem;
+    margin-top: 0.48rem;
+}
+.asideList{
+    width: 1.54rem;
+    height: 0.66rem;
+    border-radius: 33px;
+    border: solid 2px #e00d0d;
+    margin-top: 0.18rem;
+}
+.asideList p.fenlei{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 8px;
+    color: #f00c0c;
+    text-align: center;
+    line-height: 0.66rem;
+}
+.asideList p.active{
+    color: #ffffff;
+}
+
+/*                             */
+.menu{
+    float: right;
+    width: 5.41rem;
+    height: 6.8rem;
+    background-color: rgba(0,0,0,0.02);
+}
+.menuList{
+    width: 4.90rem;
+    height: 1.75rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 13px 0 rgba(192, 191, 191, 0.44);
+    border-radius: 10px;
+    margin-left: 0.25rem;
+    margin-top: 0.4rem;
+    position: relative;
+}
+.img{
+    width: 1.42rem;
+    height: 1.42rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 0.16rem;
+    left: 0.16rem;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.information{
+    float: left;
+    width: 2rem;
+    height: 1.42rem;
+    position: absolute;
+    top: 0.16rem;
+    left: 1.8rem;
+}
+.information p.first{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #060606;
+}
+.information p.second{
+    font-family: iconfont;
+    font-size: 0.17rem;
+    color: red;
+    margin-top: 0.2rem;
+}
+.information p.third{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #ff0000;
+    margin-top: 0.2rem;
+}
+p.tianjia{
+    font-family: iconfont;
+    font-size: 0.4rem;
+    color: red;
+    position: absolute;
+    right: 0.16rem;
+    top: 0.67rem;
+}
+p.number{
+    font-size: 0.3rem;
+    position: absolute;
+    right: 0.66rem;
+    top: 0.7rem;
+}
+p.jianqu{
+    font-family: iconfont;
+    font-size: 0.4rem;
+    color: red;
+    position: absolute;
+    right: 0.96rem;
+    top: 0.67rem;
+}
+
+
+/*                                             */
+.bottom{
+    width: 7.5rem;
+    height: 1rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(192, 191, 191, 0.44);
+    position: fixed;
+    bottom: 0;
+}
+.gouwuche{
+    width: 0.78rem;
+    height: 0.78rem;
+    background-image: linear-gradient(0deg, #e33f53 0%, #e6dc05 99%);
+    border-radius: 50%;
+    position: absolute;
+    top:0.1rem;
+    left: 0.2rem;
+}
+.gouwuche p{
+    font-family: iconfont;
+    font-size: 0.45rem;
+    text-align: center;
+    line-height: 0.78rem;
+    color: white;
+}
+.desc{
+    width: 1.51rem;
+    height: 0.3rem;
+    position: absolute;
+    top: 0.35rem;
+    left: 1.18rem;
+}
+.desc p{
+    font-size: 0.3rem;
+    color: red;
+}
+.button{
+    width: 1.54rem;
+    height: 0.60rem;
+    border-radius: 30px;
+    background-image: linear-gradient(-90deg, #e34550 0%, #e5d608 100%);
+    position: absolute;
+    right: 0.24rem;
+    top: 0.2rem;
+}
+.button p{
+    color: white;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+
+
